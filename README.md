@@ -18,13 +18,13 @@
 
 #### **With GME Stock data included**
 
-    - (1) **Plot the data to see what we have:**  I looked at data using hvplot. Scatter plot and heatmap. Heatmap is a better plot since the color shade gives an idea about the price of the stock (Fig 2 and 3)
+(1) **Plot the data to see what we have:**  I looked at data using hvplot. Scatter plot and heatmap. Heatmap is a better plot since the color shade gives an idea about the price of the stock (Fig 2 and 3)
 
-    - (2) **The first try:** I used K-Means at first. There were too many variables to manipulate. This did not seem the right analysis. 
+(2) **The first try:** I used K-Means at first. There were too many variables to manipulate. This did not seem the right analysis. 
 
-    - (3) **PCA Analysis and K-Means:** I did PCA (Principal Component Analysis) and K-Means algorithm. After cleaning the data of unnecessary columns I performed the following steps: (a) I used StandardScaler to scale the data. (b) Did PCA with three principal components. (c) Generated the elbow curve to see how many clusters the data needs to be fitted. (Fig 5)
+(3) **PCA Analysis and K-Means:** I did PCA (Principal Component Analysis) and K-Means algorithm. After cleaning the data of unnecessary columns I performed the following steps: (a) I used StandardScaler to scale the data. (b) Did PCA with three principal components. (c) Generated the elbow curve to see how many clusters the data needs to be fitted. (Fig 5)
 
-    - (4) **Test with different cluster size** The elbow curve shows a definite kink at K=2 cluster. However, around K=6 the line goes more horizontal. I decided to try different cluster size, K = 6, K = 4, K = 2. When the cluster size is large, there is more cross of GME stocks between clusters. This is expected since GME stocks are volatile. The figures below shows the screenshots of different aspect of the data.
+(4) **Test with different cluster size** The elbow curve shows a definite kink at K=2 cluster. However, around K=6 the line goes more horizontal. I decided to try different cluster size, K = 6, K = 4, K = 2. When the cluster size is large, there is more cross of GME stocks between clusters. This is expected since GME stocks are volatile. The figures below shows the screenshots of different aspect of the data.
     
 <img src="images/ticker_vs_date_heatmap_Close.png" width=500>
 
@@ -62,8 +62,8 @@
 
 **Fig 10:** A 3D plot of PCA predictions for K=2 clusters. This dataset includes GME stocks. The callout shows that AMC stock also has outliers.
 
-<img src="PCA_w_GME_Ticker_color.png" width = 500>
-<img src="PCA_w_GME_Ticker_color_H.png" width = 500>
+<img src="images/PCA_w_GME_Ticker_color.png" width = 500>
+<img src="images/PCA_w_GME_Ticker_color_H.png" width = 500>
 
 **Fig 11:** This is also a 3D plot of PCA clusters. Here K =2. The color shows the Tickers. The second image shows the hover data. 
 
