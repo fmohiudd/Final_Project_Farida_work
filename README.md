@@ -67,7 +67,7 @@
 
 **Fig 11:** This is also a 3D plot of PCA clusters. Here K =2. The color shows the Tickers. The second image shows the hover data. 
 
-#### **Analysis without GME Stock data**
+### **Analysis without GME Stock data**
 
 I did similar analysis as above without the GME data. Without the GME data, we observe the variations of other stocks. The volatility of GME stock price variation overshadowed other stock price variation. Without GME, it was AMC stock that showed variation on the PCA analysis. Figures below shows the data. 
 
@@ -84,15 +84,15 @@ I did similar analysis as above without the GME data. Without the GME data, we o
 **Fig 14:** The image of the explained variance. This data does not contain the GME stocks.
 
 
-<img src="2D_plot_no_GME_K2.png" width = 500>
+<img src="images/2D_plot_no_GME_K2.png" width = 500>
 
 **Fig 15:** A 2D plot of the PC 1 and PC 2 showing clusters of the stock data.
 
-<img src="PCA_no_GME_Class_color_K2.png" width = 500>
+<img src="images/PCA_no_GME_Class_color_K2.png" width = 500>
 
 **Fig 16:** A 3D plot of the PC 1, PC 2 and PC 3 showing clusters of the stock data. This dataset does not have GME data.
 
-<img src="PCA_no_GME_Ticker_color.png" width = 500>
+<img src="images/PCA_no_GME_Ticker_color.png" width = 500>
 
-**Fig 16:** A 3D plot of the PC 1, PC 2 and PC 3 showing clusters of the stock data. The color is based on the stock tickers.
+**Fig 17:** A 3D plot of the PC 1, PC 2 and PC 3 showing clusters of the stock data. The color is based on the stock tickers.
 
